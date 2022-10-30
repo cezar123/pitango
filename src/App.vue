@@ -99,10 +99,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            background: #FFFFFF;
-            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
-            border-radius: 4px;
-            gap: 1rem;
         }
     }
 
