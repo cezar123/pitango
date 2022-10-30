@@ -28,7 +28,7 @@
 <style scoped>
 
     .el-container {
-        width: 33.3rem;
+        max-width: 33.3rem;
     }
 
     .el-header {
@@ -92,6 +92,18 @@
 
     .wrap-img{
         margin-top: 1rem;
+    }
+
+    @media (max-width: 540px) {
+        .el-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+            gap: 1rem;
+        }
     }
 
 </style>
